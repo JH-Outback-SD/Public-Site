@@ -10,9 +10,8 @@ const huddleGroups = [
     contact: 'jhoutbacksd@gmail.com',
     contactImage: '/images/email-jhoutbacksd-gmail-300x48.png',
     signupUrl: 'https://mailchi.mp/d271485b29da/2ilmqw4gkx',
-    image:
-      'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=600&h=300&fit=crop',
-    mapUrl: '#',
+    image: '/images/huddle-east-county.png',
+    mapUrl: 'https://maps.app.goo.gl/B2VrL5PaLRJ48RGF6',
     active: true,
   },
   {
@@ -33,14 +32,13 @@ const huddleGroups = [
     id: 3,
     name: 'Carlsbad',
     description: "This is a Men's Huddle group for your Wednesday at 6:30 PM.",
-    location: 'Calvados Church',
-    address: '6950 El Camino Real, Carlsbad, CA',
+    location: 'Coastline Church',
+    address: '2215 Calle Barcelona, Carlsbad, CA 92009',
     meetingTime: 'Wednesday at 6:30 PM',
     contact: 'isaac.pollock@gmail.com',
     contactImage: '/images/email-isaac-gmail-300x45.png',
-    image:
-      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=300&fit=crop',
-    mapUrl: '#',
+    image: '/images/huddle-coastline-carlsbad.png',
+    mapUrl: 'https://maps.app.goo.gl/bXkE7X2NzsBAcPSGA',
     active: true,
   },
   {
