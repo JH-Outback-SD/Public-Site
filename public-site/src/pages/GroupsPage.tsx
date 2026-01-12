@@ -3,7 +3,7 @@ const huddleGroups = [
     id: 1,
     name: 'East County Huddle',
     description:
-      "This is a Men's Huddle based out of our main facility. The group meets once a week on Wednesdays at 6:30 PM for 1.5 hrs.",
+      "This is a Men's Huddle group based in Spring Valley. The group meets once a week on Wednesdays at 6:30 PM for 1.5 hrs.",
     location: 'Faith Chapel Campus',
     address: '9400 Campo Rd, Spring Valley, CA 91977',
     meetingTime: 'Wednesday at 6:30 PM',
@@ -17,21 +17,20 @@ const huddleGroups = [
   {
     id: 2,
     name: 'Poway',
-    description: "This is a Men's Huddle group for your Thursday Monday at 6:30 PM.",
-    location: 'Poway Road',
-    address: '12736 Poway Road/ Harrison Ave Suite 200, Lakeside, CA 92128',
+    description: "This is a Men's Huddle group based in Poway. The group meets once a week on Tuesdays at 6:30 AM for 1.5 hrs.",
+    location: 'Panera Bread',
+    address: '12156 Carmel Mountain Rd. San Diego, CA 92128',
     meetingTime: 'Thursday Monday at 6:30 PM',
     contact: 'joehaeussler@yahoo.com',
     contactImage: '/images/email-joe-h-yahoo-300x45.png',
-    image:
-      'https://images.unsplash.com/photo-1464082354059-27db6ce50048?w=600&h=300&fit=crop',
-    mapUrl: '#',
+    image: '/images/huddle-panera-bread.png',
+    mapUrl: 'https://maps.app.goo.gl/qi3MxstAkePNhtzHA',
     active: true,
   },
   {
     id: 3,
     name: 'Carlsbad',
-    description: "This is a Men's Huddle group for your Wednesday at 6:30 PM.",
+    description: "This is a Men's Huddle group based in Carlsbad. The group meets once a week on Tuesdays at 6:30 AM for 1.5 hrs.",
     location: 'Coastline Church',
     address: '2215 Calle Barcelona, Carlsbad, CA 92009',
     meetingTime: 'Wednesday at 6:30 PM',
@@ -43,17 +42,16 @@ const huddleGroups = [
   },
   {
     id: 4,
-    name: 'Encinitas',
-    description: "This is a Women's Huddle group for your Wednesday Mornings at 9:15 AM.",
-    location: 'Encinitas',
-    address: '775 Quail St #B, Encinitas, CA 92024',
+    name: 'Encinitas Women',
+    description: "This is a Women's Huddle group based in Encinitas. The group meets once a week on Wednesdays at 9:15 AM for 1.5 hrs.",
+    location: 'Venture Church',
+    address: '777 Santa Fe Dr, Encinitas, CA 92024',
     meetingTime: 'Wednesday Mornings at 9:15 AM',
     contact: 'aurora@robertcolello.com',
     contactImage: '/images/email-aurora-robertcollelo-300x45.png',
-    image:
-      'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&h=300&fit=crop',
-    mapUrl: '#',
-    active: false,
+    image: '/images/huddle-venture-church.png',
+    mapUrl: 'https://maps.app.goo.gl/jSWoB2p1DLc9wxB68',
+    active: true,
   },
 ]
 
@@ -152,6 +150,8 @@ export default function GroupsPage() {
                     <a
                       href={group.mapUrl}
                       className="mt-4 inline-block rounded-md bg-accent px-6 py-2 text-sm font-medium text-white transition-colors hover:bg-accent/90"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       Open in Google Maps
                     </a>
