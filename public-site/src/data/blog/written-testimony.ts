@@ -8,52 +8,67 @@ export const writtenTestimony: BlogPost = {
   title: "Written Testimony",
   slug: "written-testimony",
   excerpt: "Learn how to share your Christian testimony in 15 minutes or less. This is designed for new or experienced believers to share the life-changing power of your faith.",
-  featuredImage: "/images/blog/written-testimony.jpg",
+  featuredImage: "/images/blog/20minute-testimony.png",
   category: "Testimony",
   publishDate: "2024-01-15",
   author: "JH Outback Team",
   tags: ["testimony","faith","guide"],
   subtitle: "HOW TO PREPARE A 20-minute TESTIMONY - GENERAL OUTLINE",
   content: `<h2 class="text-2xl font-bold text-primary mt-10 mb-4">What Is a Christian Testimony?</h2>
+
 <p class="text-gray-600 my-4">A Christian testimony is your personal story of how God has transformed your life through Jesus Christ. It's a way to share how God has been at work in your life and to encourage others. It's not about boasting, but about pointing people to Christ.</p>
+
 <blockquote class="border-l-4 border-accent pl-4 my-6 italic text-gray-600">"I was blind, but now I see. I was lost, but now I am found."</blockquote>
+
 <p class="text-gray-600 my-4">The goal is not to impress, yours isn't just ABOUT WHAT YOU DID or YOUR STORY—but to show His love, grace, and power at work in a real life (yours), and to encourage others that He can do the same for them.</p>
+
 <h2 class="text-2xl font-bold text-primary mt-10 mb-4">Testimony Structure (for 15–20 minutes)</h2>
+
 <p class="text-gray-600 my-4">You can break your story into four main sections, spending about 4–5 minutes on each:</p>
+
 <h3 class="text-xl font-bold text-primary mt-8 mb-4">1. Before Christ (Your Life Before Knowing God)</h3>
+
 <ul class="space-y-2 text-gray-600 my-4"><li class="flex items-start gap-2"><span class="text-accent">•</span><span>What was your mindset, lifestyle, or identity?</span></li>
 <li class="flex items-start gap-2"><span class="text-accent">•</span><span>What were you searching for—love, purpose, truth?</span></li>
 <li class="flex items-start gap-2"><span class="text-accent">•</span><span>Were you trapped in a sin, fear, religion, or confusion?</span></li>
 <li class="flex items-start gap-2"><span class="text-accent">•</span><span>Share a few real examples, but avoid glorifying the pain</span></li>
 </ul>
-<p class="text-gray-600 my-4"><em class="text-accent">Theme: I was blind. I was empty.</em></p>
+<p class="text-gray-600 my-4">_Theme: I was blind. I was empty._</p>
+
 <h3 class="text-xl font-bold text-primary mt-8 mb-4">2. The Turning Point (How You Encountered Jesus)</h3>
+
 <ul class="space-y-2 text-gray-600 my-4"><li class="flex items-start gap-2"><span class="text-accent">•</span><span>What circumstances led you to realize you need Him / needed Him?</span></li>
 <li class="flex items-start gap-2"><span class="text-accent">•</span><span>Who or what helped you understand the truth about Jesus?</span></li>
 <li class="flex items-start gap-2"><span class="text-accent">•</span><span>How did you come to believe in Him as Lord and personal Savior?</span></li>
 <li class="flex items-start gap-2"><span class="text-accent">•</span><span>Describe the moment or process of surrendering to Him.</span></li>
 </ul>
-<p class="text-gray-600 my-4"><em class="text-accent">Theme: Jesus found me. He opened my eyes.</em></p>
+<p class="text-gray-600 my-4">_Theme: Jesus found me. He opened my eyes._</p>
+
 <h3 class="text-xl font-bold text-primary mt-8 mb-4">3. After Receiving Christ (The Change and New Understanding)</h3>
+
 <ul class="space-y-2 text-gray-600 my-4"><li class="flex items-start gap-2"><span class="text-accent">•</span><span>How did knowing the Holy Spirit affect your heart, mind, and behavior?</span></li>
 <li class="flex items-start gap-2"><span class="text-accent">•</span><span>What did you begin to understand about God? How did grace?</span></li>
 <li class="flex items-start gap-2"><span class="text-accent">•</span><span>What areas of your life began to change – and how?</span></li>
 </ul>
-<p class="text-gray-600 my-4"><em class="text-accent">Theme: Now I see. Now I understand.</em></p>
+<p class="text-gray-600 my-4">_Theme: Now I see. Now I understand._</p>
+
 <h3 class="text-xl font-bold text-primary mt-8 mb-4">4. Who You Are Now (Ongoing Walk with Jesus)</h3>
+
 <ul class="space-y-2 text-gray-600 my-4"><li class="flex items-start gap-2"><span class="text-accent">•</span><span>How has your identity, purpose, or direction in life changed?</span></li>
 <li class="flex items-start gap-2"><span class="text-accent">•</span><span>What is Jesus teaching you now?</span></li>
 <li class="flex items-start gap-2"><span class="text-accent">•</span><span>Share a recent example of His faithfulness or guidance in your life.</span></li>
 <li class="flex items-start gap-2"><span class="text-accent">•</span><span>How do you want to glorify Him going forward?</span></li>
 </ul>
-<p class="text-gray-600 my-4"><em class="text-accent">Theme: I am found. I live for Him.</em></p>
+<p class="text-gray-600 my-4">_Theme: I am found. I live for Him._</p>
+
 <h2 class="text-2xl font-bold text-primary mt-10 mb-4">Final Notes</h2>
+
 <ul class="space-y-2 text-gray-600 my-4"><li class="flex items-start gap-2"><span class="text-accent">•</span><span><strong>Keep it His story:</strong> Your story is a reflection of His grace and glory, not your performance.</span></li>
 <li class="flex items-start gap-2"><span class="text-accent">•</span><span><strong>Avoid Christian jargon</strong> that non-believers may not understand. Speak plainly and with love.</span></li>
 <li class="flex items-start gap-2"><span class="text-accent">•</span><span><strong>Pray before sharing</strong> – ask God to use your words to touch hearts.</span></li>
 <li class="flex items-start gap-2"><span class="text-accent">•</span><span><strong>Offer hope:</strong> End with an invitation or encouragement through your story.</span></li>
 </ul>
-<p class="text-gray-600 my-4"><em class="text-accent">Theme: I am found. I live for Him.</em></p>`,
+<p class="text-gray-600 my-4">_Theme: I am found. I live for Him._</p>`,
 }
 
 export default writtenTestimony

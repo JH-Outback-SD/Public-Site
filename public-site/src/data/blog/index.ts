@@ -3,37 +3,38 @@
 
 import type { BlogPostMeta, BlogPost } from '../../types/blog'
 
+import { whoamiInChrist } from './whoami-in-christ'
 import { writtenTestimony } from './written-testimony'
-import { bookOfJames } from './book-of-james'
 
 // All blog posts with full content
 export const blogPosts: Record<string, BlogPost> = {
+  'whoami-in-christ': whoamiInChrist,
   'written-testimony': writtenTestimony,
-  'book-of-james': bookOfJames,
 }
 
 // Blog posts metadata only (for listing pages)
 export const blogPostsMeta: BlogPostMeta[] = [
   {
+    title: "Whoami in Christ",
+    slug: "whoami-in-christ",
+    excerpt: "Learn how to share your Christian testimony in 15 minutes or less. This is designed for new or experienced believers to share the life-changing power of your faith.",
+    featuredImage: "/images/blog/whoami-in-christ.png",
+    category: "Discipleship",
+    publishDate: "2026-01-16",
+    author: "Jones",
+    tags: ["discipleship","faith","declaration","existence"],
+    subtitle: "Scriptural declarations to make over yourself: I Am Significant in Christ.",
+  },
+  {
     title: "Written Testimony",
     slug: "written-testimony",
     excerpt: "Learn how to share your Christian testimony in 15 minutes or less. This is designed for new or experienced believers to share the life-changing power of your faith.",
-    featuredImage: "/images/blog/written-testimony.jpg",
+    featuredImage: "/images/blog/20minute-testimony.png",
     category: "Testimony",
     publishDate: "2024-01-15",
     author: "JH Outback Team",
     tags: ["testimony","faith","guide"],
     subtitle: "HOW TO PREPARE A 20-minute TESTIMONY - GENERAL OUTLINE",
-  },
-  {
-    title: "The Book of James",
-    slug: "book-of-james",
-    excerpt: "Join us for a combined 10-day, 5-week journey through the book of James. Each week you'll spend just 15 minutes a day for five days diving into a book that speaks with purpose and direction.",
-    featuredImage: "/images/blog/book-of-james.jpg",
-    category: "Bible Study",
-    publishDate: "2024-02-01",
-    author: "JH Outback Team",
-    tags: ["bible study","james","scripture"],
   },
 ]
 

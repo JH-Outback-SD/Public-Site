@@ -28,6 +28,22 @@ export default function Footer() {
           </div>
         </div>
 
+        <div className="mb-6 flex items-center justify-center gap-4 border-b border-gray-100 pb-6">
+          <Link
+            to="/blog"
+            className="text-sm font-medium text-primary transition-colors hover:text-accent"
+          >
+            Blog
+          </Link>
+          <span className="text-gray-300">|</span>
+          <Link
+            to="#"
+            className="text-sm font-medium text-primary transition-colors hover:text-accent"
+          >
+            Board
+          </Link>
+        </div>
+
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <p className="text-sm text-gray-600">
             &copy; {new Date().getFullYear()} JH Outback San Diego. All rights reserved.

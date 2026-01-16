@@ -17,6 +17,11 @@
 import * as fs from 'fs'
 import * as path from 'path'
 import * as readline from 'readline'
+import { fileURLToPath } from 'url'
+
+// ES module compatibility
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 // Paths
 const BLOG_CONTENT_DIR = path.resolve(__dirname, '../../blog-content')
@@ -124,7 +129,10 @@ function parseFrontmatter(content: string): { frontmatter: Frontmatter; body: st
 function markdownToHtml(markdown: string): string {
   let html = markdown
 
-  // Headers
+  // Headers (process from h6 to h1 to avoid partial matches)
+  html = html.replace(/^###### (.*$)/gm, '<h6 class="text-sm font-semibold text-primary mt-4 mb-2">$1</h6>')
+  html = html.replace(/^##### (.*$)/gm, '<h5 class="text-base font-semibold text-primary mt-4 mb-2">$1</h5>')
+  html = html.replace(/^#### (.*$)/gm, '<h4 class="text-lg font-bold text-primary mt-6 mb-3">$1</h4>')
   html = html.replace(/^### (.*$)/gm, '<h3 class="text-xl font-bold text-primary mt-8 mb-4">$1</h3>')
   html = html.replace(/^## (.*$)/gm, '<h2 class="text-2xl font-bold text-primary mt-10 mb-4">$1</h2>')
   html = html.replace(/^# (.*$)/gm, '<h1 class="text-3xl font-bold text-primary mt-12 mb-6">$1</h1>')
